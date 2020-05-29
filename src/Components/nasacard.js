@@ -1,15 +1,29 @@
 import React from "react";
+import styled from "styled-components";
+
+const WrapDiv = styled.div`
+border: 2px black solid;
+background-color: gainsboro;
+width: 100%;
+margin: 5%;
+text-align: left;
+padding: 2%;
+`;
+
+const CopyStyle = styled.h3`
+text-align: left;
+`;
+
+
 
 const NasaCard = (props) => {
     console.log("props", props)
     return (
-    <div>
-        <img src={props.url}></img>
-        <p>{props.title}</p>
-        <h2>Picture Perfect</h2>
+    <WrapDiv>
+        <h2>Title: {props.title}</h2>
         <p>{props.description}</p>
-        <h3>{props.copy}</h3>
-    </div>
+        <CopyStyle>Copyright: {props.copy}</CopyStyle>
+    </WrapDiv>
 );
 };
 
