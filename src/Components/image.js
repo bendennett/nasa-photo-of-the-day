@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import NasaData from "./nasadata";
+
 
 
 const ImgWrap = styled.img`

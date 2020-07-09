@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import NasaCard from "./nasacard";
 import Header from "./header";
-import styled from 'styled-components';
 import Image from "./image";
 // import { tsPropertySignature } from "@babel/types";
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const WrapDiv = styled.div`
 border: 2px black solid;
-background-color: gainsboro;
+background-color: rgba(220, 20, 60, .1);
 width: 100%;
 margin: 5%;
 text-align: left;
